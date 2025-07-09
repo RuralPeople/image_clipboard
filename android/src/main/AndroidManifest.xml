@@ -1,3 +1,2 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.tencent.cloud.chat.flutter.image_clipboard">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 </manifest>
