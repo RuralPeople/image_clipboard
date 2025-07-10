@@ -47,18 +47,18 @@ android {
     sourceSets["main"].java.srcDirs("src/main/kotlin")
     sourceSets["test"].java.srcDirs("src/test/kotlin")
 
-    testOptions {
-        unitTests.all {
-            it.useJUnitPlatform()
-
-            it.testLogging.apply {
-                events("passed", "skipped", "failed", "standardOut", "standardError")
-                isShowStandardStreams = true
-            }
-
-            it.outputs.upToDateWhen { false }
-        }
-    }
+//    testOptions {
+//        unitTests.all {
+//            it.useJUnitPlatform()
+//
+//            it.testLogging.apply {
+//                events("passed", "skipped", "failed", "standardOut", "standardError")
+//                isShowStandardStreams = true
+//            }
+//
+//            it.outputs.upToDateWhen { false }
+//        }
+//    }
 }
 
 dependencies {
